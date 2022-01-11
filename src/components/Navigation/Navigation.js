@@ -6,7 +6,7 @@ import * as React from "react";
 import logo from "../../images/logo.png";
 import user from "../../images/user.png";
 
-export default function Navigation() {
+const Navigation = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
@@ -40,4 +40,6 @@ export default function Navigation() {
       </AppBar>
     </Box>
   );
-}
+};
+
+export default Navigation;
